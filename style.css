@@ -1,16 +1,36 @@
+body {
+    max-width: 100vw;
+}
+
 header {
             background-color: #152230FF;
             color: #FFFFFF;
             text-align: center;
-            max-width: 800px;
             margin: 0 auto;
         }
         
         main {
             background-color: #FFFFFF;
             color: #152230FF;
-            max-width: 800px;
             margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        article {
+            display: flex;
+
+            border: 1px solid #152230FF;
+
+            margin: 16px;
+            gap: 16px;
+            padding: 16px;
+
+            flex: 1 1 30%;
+
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
         }
 
         img {
